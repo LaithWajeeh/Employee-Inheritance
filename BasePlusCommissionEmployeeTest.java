@@ -4,8 +4,10 @@
 // Sources: w3schools.com and stackexchange.com.
 // Purpose: Demonstrates the use of polymorphism and inheritance to manage employee wages.
 
+//tests BasePlusCommissionEmployee class and, by extent, its inharited classes.
 public class BasePlusCommissionEmployeeTest {
     public static void main(String[] args) {
+        //establishes BasePlusCommissionEmployee object emp
         BasePlusCommissionEmployee emp = new BasePlusCommissionEmployee(
             "Laith",
             "Wajeeh",
@@ -13,7 +15,8 @@ public class BasePlusCommissionEmployeeTest {
             500000, 
             .10, 
             100000);
-        
+
+        //writes out some demonstration info.
         System.out.println("Tests/Demos:\n\nFirst Name:" + emp.getFirstName());
         System.out.println("Last Name:" + emp.getLastName());
         System.out.println("Social Security Number:" + emp.getSocialSecurityNumber());
