@@ -1,6 +1,6 @@
 // Name: Laith Wajeeh
 // Class: CS 145
-// Assignment: Lab_4: Payroll System Modification
+// Assignment: Lab_3: Employee Hierarchy
 // Sources: w3schools.com and stackexchange.com.
 // Purpose: Demonstrates the use of polymorphism and inheritance to manage employee wages.
 
